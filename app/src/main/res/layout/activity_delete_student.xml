@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="你想删除哪个的数据？"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/delete_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入学号或者姓名"/>
+
+    <Button
+        android:id="@+id/delete_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除全部数据"/>
+
+</LinearLayout>
